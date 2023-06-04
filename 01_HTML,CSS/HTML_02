@@ -1,0 +1,82 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class ="header">
+        <h1>HTML5, CSS and Javascript의 미래</h1>
+        <span class="author">by 체르니</span>
+    </div>
+    <div class="mainContent">
+        <p><span class="abstract">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit architecto corrupti repellendus beatae, impedit quibusdam obcaecati eligendi aliquid. Ipsa cupiditate excepturi dolorum nihil vero a, ut voluptates maiores quos nulla.</span></p>
+        <section>
+        <h2>HTML5 등장배경</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero natus consequuntur illo quia expedita, ad fugiat ab id saepe distinctio harum voluptas earum magnam beatae, officia facere voluptates, temporibus maxime.
+        Ab repudiandae voluptatum iure maxime placeat molestias dolores. Sunt, iusto blanditiis ex et quidem error autem quibusdam repellendus voluptates aut ut hic dolores eum expedita! Eveniet dicta ut non qui.</p>
+        <aside class="rightBar"><a href="http://www.royalpalace.go.kr/">
+            <img scr="./gb_logo.png"></a></aside>
+        </section>
+        
+        
+        <h2>HTML5, CSS, Javascript의 현재와 미래</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ullam quam modi, voluptatem dolorum ea error repellendus eligendi enim, voluptates temporibus molestiae a accusamus sapiente, corporis provident animi voluptatum quia.
+        Distinctio, eaque totam. Eligendi quidem quibusdam ab iste sit rem perspiciatis laudantium iusto ipsa minus, nisi delectus voluptas deserunt dolore suscipit quam expedita tempore doloremque non, rerum vero accusamus totam?
+        Sit ducimus nihil consectetur optio, tempore earum ipsum dolor, officia, quibusdam maiores iste eveniet. Delectus fugiat obcaecati soluta magni vero, odit animi voluptas, quaerat temporibus molestias veritatis illum cum non.
+        Excepturi quae quis enim earum eum nostrum reprehenderit veritatis amet dolorum a obcaecati repudiandae omnis, minima reiciendis autem voluptatem possimus ipsa inventore exercitationem impedit deserunt at, quidem illo provident? Aut!
+        Corporis expedita delectus sunt amet dignissimos itaque minus velit, impedit reprehenderit iusto quia corrupti, voluptatum pariatur fugit. Dolorum voluptatum provident natus error, voluptates dolorem officiis eum aliquid nam, pariatur perferendis?</p>
+        <h2>결론</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero unde tempore praesentium numquam velit nostrum quaerat, magnam esse minima voluptas optio officiis illum, quibusdam minus! Unde est voluptates similique nulla.</p>
+    </div>
+    <div class=" "footer">
+    <p>기사는 어떤 잡지에 20222년 4월 5일에 수록되었습니다.</p>
+</div>
+
+
+    <article>
+        <header>
+            <h1>HTML5, CSS and 미래</h1>
+            <span class = "author">by체르니</span>
+        </header>
+        <div class="mainContent">
+            <p class="abstract">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, quae? Perspiciatis officia minus consectetur eius, dolorem at deserunt fugit laboriosam voluptatum eos in quod rem veniam a. Rerum, quo labore.</p>
+            <section>
+                <h2>HTML5, CSS, 자바스크립트의 미래</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem optio illum cumque laudantium nam blanditiis error, similique modi amet cum aliquid eaque eveniet ratione! Sequi non consequatur enim repellat fugiat.
+                Sit culpa ut enim corporis, atque quod modi doloremque maxime magnam eius quibusdam mollitia reprehenderit accusantium excepturi dolorem iste distinctio! Veritatis corrupti minima totam cum iusto provident fugit quam tempora.
+                Dignissimos ipsum, dolor officiis ullam distinctio impedit delectus illum consequuntur unde maxime repellendus quas dolorem qui odio ea, minus inventore quo repudiandae laboriosam. Harum error iste accusamus alias aliquid ipsum!
+                Libero eos eligendi ea perferendis maxime fugit quos modi voluptatem repudiandae quisquam facere vero eius aperiam consequuntur doloribus blanditiis nisi, earum unde fuga! Atque delectus magni blanditiis facilis sit et.
+                Dolor laboriosam distinctio doloribus saepe. Repellendus vitae totam veniam, architecto aut itaque in ea eligendi esse mollitia nobis facilis nostrum tenetur similique, quos, soluta rem quidem dolor temporibus unde beatae?</p>
+            </section>
+            <section>
+                <h2>결론</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta, aliquam culpa. Minus animi ex enim nisi vitae quibusdam sequi reprehenderit nostrum possimus quae tenetur id in sed, sint quaerat magni!</p>
+            </section>
+            
+
+
+        </div>
+        <footer>기사는 어떤 잡지에 2022년에 수록되었다.</footer>
+    </article>
+
+    <style>
+        body{
+            width:720px;
+            margin-left: 16px;
+            front-family: "Malgun Gothic", Arial, sans-serif;
+        }
+
+        header {background-color: deepskyblue; padding:2px 16px;}
+        h1{ color:white; margin-bottom:0px}
+        .author {color:white; font-style: italic; color:navy}
+        .mainContent {background-color: aliceblue; padding:4px 16px;}
+        .abstract {font-size: 13px;font-style: italic; color:navy}
+        h2 {color:navy}
+
+    </style>
+
+
+</body>
+</html>

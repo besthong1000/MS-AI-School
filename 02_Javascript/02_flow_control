@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    
+       let words = prompt("매 교육시간에 외우는 단어의 개수를 입력하시오", "");
+       let total_words = 0;
+
+       if(words >0) {
+            for(let day_count=1; day_count <= 12; day_count++){
+                total_words = day_count * words;
+            }
+
+       }
+
+       document.write("총 단어 개수 : " + total_words);
+
+
+
+    </script>
+
+
+</body>
+</html>
