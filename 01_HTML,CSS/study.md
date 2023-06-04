@@ -10,5 +10,5 @@
 3. HTML 파일만들기 
     * (제목).html 저장
     * doc 입력  -> <head> 와 <body> 자동생성
-    * body에 h2 누르고 Tab 키를 누르면 <h2></h2> 자동생성
+    * body에 h2 누르고 Tab 키를 누르면 자동생성
     * 마우스 오른쪽 버튼 누른 후 Open with Live Sever로 확인
