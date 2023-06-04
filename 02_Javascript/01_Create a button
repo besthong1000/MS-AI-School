@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="greetings">안녕하세요.</p>
+        <input id="message" type="button" value="확인">
+        <input id="removelistener" type="button" value="이벤트리스너 연결 해제">
+        <script>
+            function greetings() {console.log("네, 만나서 반갑습니다.");}
+            function message() {console.log("그동안 잘 지내셨죠?");}
+            function releaselistner() {
+                pElem = document.removeElementlistener('dblclick', greetings, false);
+                inputElem.removeEventlistener("click", message, false);
+                console.log("이벤트리스너 연결 해제됨")
+            }
+
+            let pElem = document.getElementById('greetings');
+            let inputElem = document.getElementById('message');
+            let removelistener = document.getElementById('removelistener');
+
+
+            //이벤트 리스너 연결
+            pElem.addEventListener("dblclick", greetings, false);
+            inputElem.addEventListener("click", message, false);
+            removelistener.addEventlistener("click", releaselistener, false);
+
+
+
+
+        </script>
+
+
+</body>
+</html>
